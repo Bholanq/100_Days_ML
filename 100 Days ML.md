@@ -68,6 +68,7 @@ Cons:
 - Not very scalable 
 - Slow during predictions
 Eg. KNN 
+
 Model - The model **learns a function/pattern** from data and uses it for predictions.
 Pros:
 - Minimum storage requirement as we only need to store the function/rule. 
@@ -76,3 +77,33 @@ Cons:
 - Training phase may take time/costly.
 - May underfit/overfit.
 Eg. Logistic Regression, Linear R, Decision Trees etc.
+
+[[Tensors]]
+
+## Flow of ML 
+ Steps
+ 0. Preprocess + EDA + Feature Selection
+	 1. `df = df.iloc[:,1:]
+ 1. Extract input and output cols
+	 	 1. `X = df.iloc[:,0:2] 
+	 	 2. `y = df.iloc[:,-1]
+ 2. Scale the values
+	 1. `from sklearn.preprocessing import StandardScaler`
+	 2. `scaler = StandardScaler()`
+	 3. `X_train = scaler.fit_transform(X_train)`
+	 4. `X_test = scaler.transform(X_test)`
+ 3. Train test split
+	 1. `from sklearn.model_selection import train_test_split 
+	 2. `X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.1)`
+ 4. Train the model
+	 1. `from sklearn.linear_model import LogisticRegression`
+	 2. `clf = LogisticRegression()`
+	 3. `# model training
+	 4. `clf.fit(X_train,y_train) 
+	
+ 5. Evaluate the model/model selection
+	 1. `from sklearn.metrics import accuracy_score`
+	 2. `accuracy_score(y_test,y_pred)
+ 6. Deploy the model
+	 1. `import pickle
+	 2. `pickle.dump(clf,open('model.pkl','wb'))`
