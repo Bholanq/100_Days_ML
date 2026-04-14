@@ -1,5 +1,4 @@
 Tensors in machine learning are just generalized containers for data.
-
 Tensor is the same as n-dimensional array 
 ### 0D Tensor/Scalar
 - single number

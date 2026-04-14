@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Challenges in ML.md",
+                "file": "Pandas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Challenges in ML"
+              "title": "Pandas"
             }
           },
           {
@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numpy.md",
+                "file": "Tensors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Numpy"
+              "title": "Tensors"
             }
           },
           {
@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -233,32 +233,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "9632713debdf089d",
+  "active": "941b2061a7f4ff17",
   "lastOpenFiles": [
+    "Pasted image 20260414083046.png",
+    "Challenges in ML.md",
+    "Tensors.md",
+    "0 1 2 3 4] [5 6 7 8 9.md",
+    "100 Days ML.md",
+    "Numpy.md",
+    "Pandas.md",
+    "Pasted image 20260414081730.png",
+    "Pasted image 20260414081537.png",
+    "Pasted image 20260414074052.png",
+    "Pasted image 20260414073556.png",
+    "Pasted image 20260414065742.png",
     "Pasted image 20260413091451.png",
     "Pasted image 20260413091028.png",
     "Pasted image 20260413074908.png",
     "Pasted image 20260413073613.png",
-    "100 Days ML.md",
     "Supervised.md",
     "Regression.md",
     "MLDLC.md",
     "Data Science.md",
     "Statistics.md",
     "Deep Learning.md",
-    "Pandas.md",
-    "Numpy.md",
     "GenAI.md",
-    "Tensors.md",
     "Pasted image 20260412090545.png",
-    "Pasted image 20260412090404.png",
-    "Pasted image 20260412085917.png",
-    "Pasted image 20260412085404.png",
-    "Pasted image 20260412084845.png",
-    "Pasted image 20260411113143.png",
-    "Challenges in ML.md",
     "Unsupervised.md",
-    "Pasted image 20260411101144.png",
     "Semi-supervised.md",
     "Reinforcement learning.md"
   ]
