@@ -36,7 +36,7 @@ NumPy (short for **Numerical Python**) is a core Python library used for **fast 
 
 #### array reshaping 
 `arr = np.arange(0,10) - [0 1 2 3 4 5 6 7 8 9]
-`reshaped = arr.reshape((2,5)
+`reshaped = arr.reshape((2,5))
 `print(reshaped) - [[0 1 2 3 4] [5 6 7 8 9]]
 
 1. `flattened = reshaped.flatten()`
@@ -46,8 +46,9 @@ NumPy (short for **Numerical Python**) is a core Python library used for **fast 
 # 2. Numpy Array Operations
 
 #### slicing 
-
 ![[Pasted image 20260413091028.png]]
+#### DF slicing 
+`df[row_range:col_range]
 ![[Pasted image 20260413091451.png]]
 
 for fetching form a dataframe,
@@ -113,5 +114,37 @@ else
 numbers}
 ```
 
+# Adding and Removing Data 
+1. adding arrays (summing values)
+```
+	    arr1 = np.array([1,2,3,4])
+		arr2 = np.array([5,6,7,8])
+		print(arr1+arr2)
+		[6,8,10,12]
+```
+2. concatenating two arrays
+		`concat_arr = np.concat((arr1,arr2))
+		`print(concat_arr)
+		`[1,2,3,4,5,6,7,8]`
+	
+3. array compatibility 
+		`arr1.shape == arr2.shape`
+4. vstack - stacks rows and hstack - stacks columns
+		```
+		orig = np.array([[1,2],[3,4]])
+		new_col = np.array([[5],[6]])
+		new_row = np.array([7,8,9])
+		final = np.hstack((orig,new_col))
+		final = np.vstack((final,new_row))
+		print(final)
+		[[1 2 5] [3 4 6] [7 8 9]]
+		```
+5. deleting from a numpy arr
+		`arr = np.array([1,2,34,5])
+		`arr.delete(arr,start,end,skips)` - similar to slicing 
 
-
+```
+arr = np.array([1,2,3,4,5,6,7,8])
+new = np.delete(arr,arr[1:5])
+print(new)
+```
