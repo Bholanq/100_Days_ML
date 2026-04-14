@@ -35,7 +35,7 @@ eg:
 ` harry = pd.read_csv('name.csv')
 
 - Setting the index
-	`harry.index = ['name','you','want','the','cols'.'to','be']
+	`harry.index = ['name','you','want','the','cols','to','be']
 
 # Pandas Data Structures
 
