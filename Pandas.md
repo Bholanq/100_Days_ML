@@ -122,3 +122,5 @@ We can also add conditions within .loc and .iloc
 1. df.dropna(how = "all",axis =1) - drops the column if entire column is NaN
 2. df.dropna(how = 'any',axis=0) - drops the row if any element is NaN
 # df.drop_duplicates() 
+
+# Dates are  represented with the data type object in pandas

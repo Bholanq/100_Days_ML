@@ -24,7 +24,7 @@ NumPy (short for **Numerical Python**) is a core Python library used for **fast 
 3. only one element  - full
 	1. `np.full((5,5),7) ->5x5 matrice with only 7
 4. random 
-	1. np.random.random((3,3))
+	1. `np.random.random((3,3))
 
 #### Array properties
 
@@ -37,7 +37,7 @@ NumPy (short for **Numerical Python**) is a core Python library used for **fast 
 #### array reshaping 
 `arr = np.arange(0,10) - [0 1 2 3 4 5 6 7 8 9]
 `reshaped = arr.reshape((2,5))
-`print(reshaped) - [[0 1 2 3 4] [5 6 7 8 9]]
+`print(reshaped) - [[0 1 2 3 4][5 6 7 8 9]]
 
 1. `flattened = reshaped.flatten()`
 2. `raveled = reshaped.ravel() - returns view instead of copy 

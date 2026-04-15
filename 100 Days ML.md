@@ -107,3 +107,6 @@ Eg. Logistic Regression, Linear R, Decision Trees etc.
  6. Deploy the model
 	 1. `import pickle
 	 2. `pickle.dump(clf,open('model.pkl','wb'))`
+
+# [[Framing a ML Problem]] 
+# [[Data Gathering]]
