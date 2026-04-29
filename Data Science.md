@@ -4,6 +4,7 @@
 [[100 Days ML]]
 [[Deep Learning]]
 [[GenAI]]
+[[Seaborn]]
 
 
 

@@ -13,7 +13,7 @@ NumPy (short for **Numerical Python**) is a core Python library used for **fast 
 ![[Pasted image 20260413074908.png|183]]
 
 #### Creating an array of range - arange()
-`np.arange(10000) -> [0,1,...1000]
+`np.arange(10000) -> [0,1,...10000]
 `np.arange(0,10000) -> [0,1,2,..9999]`
 
 #### Creating array from scratch
@@ -37,11 +37,10 @@ NumPy (short for **Numerical Python**) is a core Python library used for **fast 
 #### array reshaping 
 `arr = np.arange(0,10) - [0 1 2 3 4 5 6 7 8 9]
 `reshaped = arr.reshape((2,5))
-`print(reshaped) - [[0 1 2 3 4][5 6 7 8 9]]
+`print(reshaped) - [[-]]
 
 1. `flattened = reshaped.flatten()`
 2. `raveled = reshaped.ravel() - returns view instead of copy 
-
 3. `reshaped.transpose()`
 # 2. Numpy Array Operations
 
@@ -121,6 +120,9 @@ numbers}
 		arr2 = np.array([5,6,7,8])
 		print(arr1+arr2)
 		[6,8,10,12]
+		
+		# regular python will concatinate the array instead of adding the values 
+		[1,2,3,4,5,6,7,8]
 ```
 2. concatenating two arrays
 		`concat_arr = np.concat((arr1,arr2))
@@ -129,7 +131,7 @@ numbers}
 	
 3. array compatibility 
 		`arr1.shape == arr2.shape`
-4. vstack - stacks rows and hstack - stacks columns
+4. **vstack** - stacks rows and **hstack** - stacks columns
 		```
 		orig = np.array([[1,2],[3,4]])
 		new_col = np.array([[5],[6]])

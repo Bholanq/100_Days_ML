@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0b6537e387520f48",
+        "id": "fbf5e8d86ebf4152",
         "type": "tabs",
         "children": [
           {
-            "id": "797e9b6d7f75360b",
+            "id": "81e5578765044cbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Scraping.md",
+                "file": "Data Science.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web Scraping"
-            }
-          },
-          {
-            "id": "941b2061a7f4ff17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pandas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pandas"
+              "title": "Data Science"
             }
           }
         ]
@@ -195,43 +181,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "797e9b6d7f75360b",
+  "active": "81e5578765044cbd",
   "lastOpenFiles": [
-    "Pasted image 20260416150312.png",
-    "Pasted image 20260416145127.png",
-    "Data Gathering.md",
-    "API.md",
-    "Web Scraping.md",
-    "JSON.md",
+    "Seaborn.md",
+    "Data Science.md",
+    "EDA.md",
+    "Univariate Analysis.md",
+    "Multivariate.md",
+    "Bivariate.md",
+    "100 Days ML.md",
     "CSV.md",
     "Pandas.md",
-    "Data Science.md",
-    "Challenges in ML.md",
     "Numpy.md",
-    "0 1 2 3 4] [6 7 8 9.md",
+    "Data Gathering.md",
+    "Tensors.md",
+    "Unsupervised.md",
+    "Supervised.md",
+    "Clustering.md",
+    "Dim Reduction.md",
+    "Anomaly Detection.md",
+    "Association Rule Mining.md",
+    "Classification.md",
+    "Regression.md",
     "Framing a ML Problem.md",
+    "-.md",
+    "Web Scraping.md",
+    "Pasted image 20260416150312.png",
+    "Pasted image 20260416145127.png",
+    "API.md",
+    "JSON.md",
+    "Challenges in ML.md",
     "Pasted image 20260414143831.png",
     "Pasted image 20260414143700.png",
     "Pasted image 20260414130106.png",
-    "100 Days ML.md",
-    "GenAI.md",
-    "Tensors.md",
     "Pasted image 20260414083046.png",
     "Pasted image 20260414081730.png",
     "Pasted image 20260414081537.png",
     "Pasted image 20260414074052.png",
-    "Pasted image 20260414073556.png",
-    "Pasted image 20260414065742.png",
-    "Reinforcement learning.md",
-    "Semi-supervised.md",
-    "Unsupervised.md",
-    "Association Rule Mining.md",
-    "Anomaly Detection.md",
-    "Dim Reduction.md",
-    "Clustering.md",
-    "Supervised.md",
-    "Classification.md",
-    "Regression.md",
-    "MLDLC.md"
+    "Pasted image 20260414073556.png"
   ]
 }

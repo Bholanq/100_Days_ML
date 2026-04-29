@@ -17,13 +17,13 @@ Based one the amount of supervision needed 4 types:
 
 ## Batch vs Online Machine Learning 
 
-|Feature|Batch Learning|Online Learning|
-|---|---|---|
-|Data Processing|All at once|One by one / small chunks|
-|Updates|Retrain entire model|Incremental updates|
-|Speed|Slow updates|Fast updates|
-|Use Case|Static datasets|Streaming/real-time data|
-|Memory Usage|High|Lower|
+| Feature         | Batch Learning       | Online Learning           |
+| --------------- | -------------------- | ------------------------- |
+| Data Processing | All at once          | One by one / small chunks |
+| Updates         | Retrain entire model | Incremental updates       |
+| Speed           | Slow updates         | Fast updates              |
+| Use Case        | Static datasets      | Streaming/real-time data  |
+| Memory Usage    | High                 | Lower                     |
 Batch - The entire data is used to train the model once. Usually offline. Then deployed.
 
 Problem - If the data is updated then the entire Model has to retrained with the complete new data.
@@ -52,7 +52,7 @@ Cons:
 
 The data is broken down offline, but since it being fed incrementally its online learning.
 
-![[Pasted image 20260411101144.png|278]]
+![[Pasted image 20260411101144.png|259]]
 
 ## Instance vs Model Based Learning 
 
@@ -61,7 +61,7 @@ Memorization vs Generalization
 Instance Based - The model **stores training data** and makes predictions by comparing new data to stored examples.
 
 Pros:
-- Not training phase, faster.
+- No training phase, faster.
 - Simple
 Cons:
 - Storage Heavy as we require all the training data.
@@ -95,6 +95,7 @@ Eg. Logistic Regression, Linear R, Decision Trees etc.
  3. Train test split
 	 1. `from sklearn.model_selection import train_test_split 
 	 2. `X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.1)`
+#steps-3-and-2-can-be-intercahnged
  4. Train the model
 	 1. `from sklearn.linear_model import LogisticRegression`
 	 2. `clf = LogisticRegression()`
@@ -110,3 +111,6 @@ Eg. Logistic Regression, Linear R, Decision Trees etc.
 
 # [[Framing a ML Problem]] 
 # [[Data Gathering]]
+
+# [[EDA]]
+
